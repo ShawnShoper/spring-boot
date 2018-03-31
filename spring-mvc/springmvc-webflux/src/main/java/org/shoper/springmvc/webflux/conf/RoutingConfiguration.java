@@ -13,6 +13,6 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 public class RoutingConfiguration {
     @Bean
     public RouterFunction<ServerResponse> monoRouterFunction(UserHandler userHandler) {
-        return RouterFunctions.route(RequestPredicates.GET("/{user}").and(RequestPredicates.accept(MediaType.APPLICATION_JSON)), userHandler::getUser);
+        return RouterFunctions.route(RequestPredicates.GET("/r/user/{id}").and(RequestPredicates.accept(MediaType.APPLICATION_JSON)), userHandler::getUser);
     }
 }

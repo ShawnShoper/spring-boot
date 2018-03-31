@@ -12,7 +12,7 @@
     <artifactId>spring-mvc</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>springmvcwebflux</module>
+        <module>springmvc-webflux</module>
     </modules>
 
 

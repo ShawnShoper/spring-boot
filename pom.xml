@@ -22,7 +22,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <repositories>
         <repository>
             <id>ShawnShoper</id>
